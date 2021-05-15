@@ -116,6 +116,21 @@ $ killall Finder
 
     $ system_profiler |grep "Serial Number (system)"
 
+#### Download LinkedIn Courses
+
+- Log in to the Linkedin Learning app
+- [OPTIONAL] change password just for safely, turn OFF two-step verification if already ON
+- Search for any course.
+- Navigate to the course of your choice.
+- Copy its slug e.g. https://www.linkedin.com/learning/<slug>
+- Open your terminal or command line.
+- Copy the command given below and replace course-slug with your copied course slug and run it
+
+  $ llvd -c "course-slug" -r 720
+  # login with email/pass.
+
+`llvd` creates separate folders for each course you download, groups all videos by chapters, and renames all downloaded videos with video names so that they will be ordered properly.
+
 ## Keyboard Shortcuts
 
 - Get info:
